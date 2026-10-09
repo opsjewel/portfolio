@@ -1,4 +1,6 @@
 import Container from "../Layout/Container";
+import jewel from "../../assets/jewel.jpeg";
+
 const About = () => {
   const skills = [
     "HTML5",
@@ -74,7 +76,7 @@ const About = () => {
             <div className="relative overflow-hidden rounded-3xl border border-[#7A5AFB]/40 bg-gradient-to-br from-[#17113A] to-[#0B1224] p-3 shadow-[0_0_40px_rgba(122,90,251,0.12)]">
               {" "}
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85"
+                src={jewel}
                 alt="Professional portrait"
                 className="h-80 w-full rounded-2xl object-cover object-center sm:h-96"
                 loading="lazy"
