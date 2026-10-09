@@ -11,17 +11,21 @@ const Contact = () => {
   });
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    const { name, value } = e.target;
+    setFormData((current) => ({ ...current, [name]: value }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Backend or email service connect korte hobe
-    console.log(formData);
+    // Replace this placeholder with your real contact email.
+    const contactEmail = "your.email@example.com";
+    const subject = encodeURIComponent(formData.subject.trim());
+    const body = encodeURIComponent(
+      `Name: ${formData.name.trim()}\nEmail: ${formData.email.trim()}\n\n${formData.message.trim()}`,
+    );
+
+    window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -53,7 +57,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Content */}
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-12">
+          <div className="grid min-w-0 grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-5 lg:gap-12">
             {/* Contact Information */}
             <div className="lg:col-span-2">
               <div className="h-full rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-8">
@@ -142,7 +146,7 @@ const Contact = () => {
             <div className="lg:col-span-3">
               <form
                 onSubmit={handleSubmit}
-                className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-8"
+                className="min-w-0 rounded-2xl border border-white/10 bg-white/[0.03] p-4 sm:p-8"
               >
                 <h3 className="text-2xl font-semibold">
                   Send Me a Message

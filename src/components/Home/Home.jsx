@@ -9,7 +9,7 @@ const Home = () => {
         <div className="flex flex-col-reverse items-center gap-10 py-12 sm:py-16 md:py-20 lg:flex-row lg:justify-between lg:gap-8">
           {" "}
           {/* Left Content */}{" "}
-          <div className="w-full text-center lg:w-1/2 lg:text-left">
+          <div className="w-full min-w-0 text-center lg:w-1/2 lg:text-left">
             {" "}
             <p className="mb-4 inline-block rounded-full border border-[#7A5AFB]/40 bg-[#7A5AFB]/10 px-4 py-2 text-sm font-medium text-[#A99AFF]">
               {" "}
@@ -88,7 +88,7 @@ const Home = () => {
             </div>{" "}
           </div>{" "}
           {/* Right Image */}{" "}
-          <div className="flex w-full justify-center lg:w-1/2 lg:justify-end">
+          <div className="flex w-full min-w-0 justify-center lg:w-1/2 lg:justify-end">
             {" "}
             <div className="relative flex h-64 w-64 items-center justify-center rounded-full border border-[#7A5AFB]/40 bg-gradient-to-br from-[#7A5AFB]/20 to-transparent p-3 shadow-[0_0_60px_rgba(122,90,251,0.15)] sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[420px] lg:w-[420px]">
               {" "}

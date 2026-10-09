@@ -64,7 +64,7 @@ const About = () => {
           </p>{" "}
         </div>{" "}
         {/* Main Content */}{" "}
-        <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:gap-16">
+        <div className="grid min-w-0 grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-10 lg:gap-16">
           {" "}
           {/* Profile Image */}{" "}
           <div className="relative mx-auto w-full max-w-md">

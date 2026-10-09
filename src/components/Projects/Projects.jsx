@@ -59,12 +59,12 @@ const Projects = () => {
           </p>{" "}
         </div>{" "}
         {/* Project Cards */}{" "}
-        <div className="grid grid-cols-1 gap-7 lg:grid-cols-2 lg:gap-8">
+        <div className="grid min-w-0 grid-cols-1 gap-6 sm:gap-7 lg:grid-cols-2 lg:gap-8">
           {" "}
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group overflow-hidden rounded-2xl border border-[#26365B] bg-[#080F20] transition duration-300 hover:-translate-y-1 hover:border-[#7A5AFB]/70 hover:shadow-[0_0_30px_rgba(122,90,251,0.10)]"
+              className="group min-w-0 overflow-hidden rounded-2xl border border-[#26365B] bg-[#080F20] transition duration-300 hover:-translate-y-1 hover:border-[#7A5AFB]/70 hover:shadow-[0_0_30px_rgba(122,90,251,0.10)]"
             >
               {" "}
               {/* Project Image */}{" "}

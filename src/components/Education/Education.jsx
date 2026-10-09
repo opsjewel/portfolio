@@ -129,7 +129,7 @@ const Education = () => {
               {courses.map((course) => (
                 <div key={course.title} className="relative">
                   {" "}
-                  <div className="absolute-left-[35px] top-2 h-3.5 w-3.5 rounded-full bg-[#7A5AFB] ring-4 ring-[#7A5AFB]/15" />{" "}
+                  <div className="absolute -left-[35px] top-2 h-3.5 w-3.5 rounded-full bg-[#7A5AFB] ring-4 ring-[#7A5AFB]/15" />{" "}
                   <span className="inline-block rounded-full border border-[#7A5AFB]/40 bg-[#7A5AFB]/15 px-3 py-1 text-xs font-medium text-[#B9A9FF] sm:text-sm">
                     {" "}
                     {course.duration}{" "}
