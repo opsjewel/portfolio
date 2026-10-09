@@ -80,7 +80,7 @@ const Contact = () => {
                     <div className="min-w-0">
                       <h4 className="font-medium">Email</h4>
                       <p className="mt-1 break-all text-sm text-slate-400">
-                        your.email@example.com
+                        ashrafulalamjewel1996@gmail.com
                       </p>
                     </div>
                   </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                     </a>
 
                     <a
-                      href="https://www.linkedin.com/"
+                      href="http://www.linkedin.com/in/ashrafulalamjewel"
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-lg border border-white/10 px-4 py-2 text-sm text-slate-300 transition hover:border-pink-400 hover:text-pink-400"

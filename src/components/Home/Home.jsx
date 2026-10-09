@@ -61,7 +61,7 @@ const Home = () => {
                 GitHub ↗{" "}
               </a>{" "}
               <a
-                href="https://www.linkedin.com/"
+                href="http://www.linkedin.com/in/ashrafulalamjewel"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-lg border border-white/10 px-4 py-2 text-sm text-gray-300 transition hover:border-[#7A5AFB] hover:text-white"
@@ -79,7 +79,7 @@ const Home = () => {
                 Facebook ↗{" "}
               </a>{" "}
               <a
-                href="mailto:your-email@gmail.com"
+                href="mailto:ashrafulalamjewel1996@gmail.com"
                 className="rounded-lg border border-white/10 px-4 py-2 text-sm text-gray-300 transition hover:border-[#7A5AFB] hover:text-white"
               >
                 {" "}
