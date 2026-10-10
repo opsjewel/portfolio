@@ -40,7 +40,7 @@ const Home = () => {
                 View My Projects{" "}
               </a>{" "}
               <a
-                href="/Jewel-CV.pdf"
+                href="../../../public/Ashraful_Alam_Jewel_Resume.pdf"
                 download
                 className="rounded-lg border border-[#7A5AFB] px-5 py-3 text-sm font-semibold transition duration-300 hover:bg-[#7A5AFB] sm:text-base"
               >

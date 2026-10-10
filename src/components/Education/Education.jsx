@@ -40,8 +40,8 @@ const Education = () => {
           </span>{" "}
           <h2 className="mt-5 text-3xl font-bold sm:text-4xl md:text-5xl">
             {" "}
-            <span className="text-white">Educa</span>{" "}
-            <span className="text-[#7A5AFB]">tion</span>{" "}
+            <span className="text-white">Edu</span>{" "}
+            <span className="text-[#7A5AFB]">cation</span>{" "}
           </h2>{" "}
           <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-[#7A5AFB]" />{" "}
           <p className="mt-5 text-sm leading-7 text-gray-400 sm:text-base">
@@ -80,7 +80,8 @@ const Education = () => {
               <div className="absolute -left-[7px] top-2 h-3.5 w-3.5 rounded-full bg-[#7A5AFB] ring-4 ring-[#7A5AFB]/15" />{" "}
               <span className="inline-block rounded-full border border-[#7A5AFB]/40 bg-[#7A5AFB]/15 px-3 py-1 text-xs font-medium text-[#B9A9FF] sm:text-sm">
                 {" "}
-                Diploma in Engineering{" "}
+                August 2019 – December 2023
+{" "}
               </span>{" "}
               <h4 className="mt-4 text-lg font-bold leading-snug sm:text-xl">
                 {" "}
@@ -88,7 +89,7 @@ const Education = () => {
               </h4>{" "}
               <p className="mt-2 text-sm font-medium text-[#A99AFF]">
                 {" "}
-                Electrical Engineering{" "}
+                Mymensingh Polytechnic Institute{" "}
               </p>{" "}
               <div className="mt-4 inline-flex items-center gap-2 rounded-lg border border-[#26365B] bg-[#0B1530] px-3 py-2">
                 {" "}

@@ -9,7 +9,7 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1000&q=85",
       technologies: ["React", "JavaScript", "Tailwind CSS", "Firebase"],
-      liveLink: "",
+      liveLink: "https://exclusive-one-gamma.vercel.app",
       githubLink: "https://github.com/opsjewel/exclusive",
     },
     {
@@ -25,8 +25,8 @@ const Projects = () => {
         "Tailwind CSS",
         "Responsive Design",
       ],
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://innovate-ashy.vercel.app",
+      githubLink: "https://github.com/opsjewel/Innovate",
     },
   ];
   return (

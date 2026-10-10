@@ -168,7 +168,7 @@ const About = () => {
             </div>{" "}
             {/* Download CV */}{" "}
             <a
-              href="/Jewel-CV.pdf"
+              href="../../../public/Ashraful_Alam_Jewel_Resume.pdf"
               download
               className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[#7A5AFB] px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#6544E8] hover:shadow-[0_0_25px_rgba(122,90,251,0.3)]"
             >
