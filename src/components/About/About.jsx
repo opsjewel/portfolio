@@ -1,5 +1,5 @@
 import Container from "../Layout/Container";
-import jewel from "../../assets/jewel.jpeg";
+import jewel from "../../assets/jewel.png";
 
 const About = () => {
   const skills = [
